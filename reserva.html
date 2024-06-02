@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reserva.css">
+    <title>Reserve sua pizza</title>
+</head>
+<body>
+    <header>
+        <h1>PizzaShop</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>Reserve sua Pizza</h2>
+        </div>
+        <form>
+        
+            <div id="imgtopo">
+                <img src="img/fundopizzaform.jpg" alt="">
+            </div>
+        
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="endereço">Endereço:</label>
+            <input type="text" id="endereço" name="endereço" required><br>
+
+            <label for="phone">Telefone:</label>
+            <input type="number" id="phone" name="phone" required><br>
+            <div id="tamanho">
+            <label for="pizza-size" id="espaço">Tamanho:</label>
+            <select name="pizza-size" id="pizza-size">
+                <option value="frango">6 Fatias</option>
+                <option value="frango">8 Fatias</option>
+                <option value="frango">12 Fatias</option>
+            </select><br>
+            </div>
+            <div id="tipo">
+            <label for="pizza-type">Sabor da Pizza:</label>
+            <select id="pizza-type" name="pizza-type" required>
+                <option value="frango">Frango</option>
+                <option value="Prestígio">Mista</option>
+                <option value="Prestígio">Muçarela</option>
+                <option value="calabresa">Calabresa</option>
+                <option value="portuguesa">Portuguesa</option>
+                <option value="Strogonoff">Strogonoff</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Sensação">Sensação</option>
+                <option value="Confete">Confete</option>
+                <option value="Prestígio">Prestígio</option>
+            </select><br>
+            </div>
+            <div class="botoes">
+                <button id="btnVoltar" onclick="voltar()">Voltar</a></button>
+                <button type="button" id="btndados" onclick="enviarDados()">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

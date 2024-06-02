@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            background-image: linear-gradient(black, rgb(62, 59, 59)); /* Substitua pelo caminho da sua imagem */
+            height: 100%;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffc506;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(171, 160, 160);
+        }
+
+        form {
+            width: 300px;
+            height: 750px;
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            align-items: center;
+            border-radius: 12px;
+            border: 2px solid black; /* Adiciona uma borda preta */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para destaque */
+            margin: auto;
+            
+        }
+        div #imgtopo{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        #imgtopo img {
+            max-width: 100%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        label {
+            width: 169px;
+            color: #000000;
+            text-shadow: 1px -1px 3px #fffefd00;
+            font-weight: bold;
+        }
+
+        label#espaço {
+            margin-left: 30px;
+        }
+
+        #pizza-size{
+            width: 90px;
+        }
+
+        #btnVoltar{
+            margin: 10px;
+            width: 100px;
+            height: 40px;
+            background-color: #f6d464;
+            color: #000000;
+            border-radius: 5px;
+        }
+
+        #btndados {
+            margin: 10px;
+            width: 140px;
+            height: 40px;
+            background-color: #ffc506;
+            color: #000000;
+            border-radius: 5px;
+            font-weight: bolder;
+        }
+        #btnVoltar:hover{
+            background-color: transparent;
+        }
+        #btndados:hover{
+            background-color: #fe832b;
+            font-weight: bolder;
+        }
+
+        .botoes {
+            display: flex;
+            justify-content: center;
+            margin-top: auto;
+        }
+
+        
+
+        textarea {
+            resize: vertical; /* Permite redimensionar apenas verticalmente */
+            width: 250px;
+        }
+
+        #tipo {
+            margin: 40px;
+        }
